@@ -1,0 +1,19 @@
+extends layout
+
+block layout-content
+  div.View.WelcomeView
+    h1.Banner CURRENCY MOVING AVERAGES
+    div.Message
+      div.Title
+        h3 Currency Exchange Application
+        h1 Food For Financial Analysts
+      span.Details Click on either of the three buttons below to view the Moving Averages of the pair.
+    div.NavButtons
+      a(href="/eurtousd")
+          div.NavButton EUR/USD
+    div.NavButtons
+      a(href="/gbptousd")
+          div.NavButton GBP/USD
+    div.NavButtons
+      a(href="/usdtojpy")
+          div.NavButton USD/JPY
